@@ -1,8 +1,7 @@
-/* GET travel view */
 const news = (req, res) => {
-    res.render('news', { title: 'Travlr Getaways - NEWS' });
-   };
-   module.exports = {
+    res.render('news', {title: "Travlr Getaways - News"});
+};
+
+module.exports = {
     news
-   };
-   
+};
