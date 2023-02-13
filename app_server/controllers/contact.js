@@ -1,8 +1,7 @@
-/* GET contact view */
 const contact = (req, res) => {
-    res.render('travel', { title: 'Travlr Getaways - Contact' });
-   };
-   module.exports = {
+    res.render('contact', {title: "Travlr Getaways - Contact"});
+};
+
+module.exports = {
     contact
-   };
-   
+};

@@ -1,10 +1,9 @@
 var fs = require('fs');
-var fs = require('fs');
 
 const request = require('request');
 
 const apiOptions = {
-    server: 'http://localhost:5050'
+    server: 'http://localhost:3000'
 }
 
 /*Internal method to render the travel list*/
